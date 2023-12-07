@@ -1,0 +1,47 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /data/data/com.termux/files/home/bin:/data/data/com.termux/files/home/.local/bin:/data/data/com.termux/files/usr/local/bin:/data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.2.0
+
+Platform: 
+  android arm
+
+Trace: 
+  Error: EPERM: operation not permitted, symlink '../../../jake/bin/cli.js' -> '/storage/emulated/0/Learn code (Web Development)/Back end web/Node Js/009-contact-app/node_modules/ejs/node_modules/.bin/jake'
+
+npm manifest: 
+  {
+    "name": "008-express-midleware",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "ahmad beni rusli",
+    "license": "ISC",
+    "devDependencies": {
+      "express": "^4.17.1",
+      "ejs": "^3.1.9",
+      "express-ejs-layouts": "^2.5.1",
+      "morgan": "^1.10.0",
+      "validator": "^13.5.2",
+      "express-validator": "^6.10.1",
+      "express-session": "^1.17.1",
+      "cookie-parser": "^1.4.5",
+      "connect-flash": "^0.1.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
